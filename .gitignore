@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Data files - DO NOT COMMIT
+*.json
+*.csv
+*.xlsx
+*.xls
+
+# Google Cloud credentials - NEVER COMMIT
+credentials.json
+*-credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# BigQuery temp files
+bq-results-*.csv
